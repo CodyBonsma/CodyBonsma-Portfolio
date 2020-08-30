@@ -1,0 +1,11 @@
+body{
+    background-color: beige;
+}
+
+.container{
+    border: double;
+    height: 500px;
+    width: 40%;
+    padding: 20px;
+    
+}
