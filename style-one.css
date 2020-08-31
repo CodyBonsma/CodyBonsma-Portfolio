@@ -4,13 +4,16 @@ body{
 }
 /* edits for the main content container on index.html */
 .container{
-    border: double;
+    background: white;
     height: 500px;
     width: 40%;
     padding: 20px;
+    margin: 50px;
    
 }
 
 #name{
+    padding: 3px;
     background: #46a68b;
+    color: whitesmoke;
 }
