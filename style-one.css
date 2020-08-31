@@ -1,6 +1,5 @@
 body{
-    background-image: url(/Users/codybonsma/gt-ft/homework/CodyBonsma-Portfolio/assets/ignasi_pattern_s.png);
-    
+    background-image: url("./assets/ignasi_pattern_s.png"); 
 }
 /* edits for the main content container on index.html */
 .container{
@@ -12,13 +11,13 @@ body{
     margin-left: 300px;
    
 }
-
+/* ID for the name box in the navbar */
 #name{
     padding: 3px;
-    background: #46a68b;
+    background: #58b094;
     color: whitesmoke;
 }
-
+/* ID for the picture in the main content box */
 #picture{
     width: 100%;
 }
