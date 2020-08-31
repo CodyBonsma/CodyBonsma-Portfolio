@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-image: url(/Users/codybonsma/gt-ft/homework/CodyBonsma-Portfolio/assets/ignasi_pattern_s.png);
     
 }
 /* edits for the main content container on index.html */
@@ -8,6 +8,7 @@ body{
     height: 500px;
     width: 40%;
     padding: 20px;
+   
 }
 
 #name{
