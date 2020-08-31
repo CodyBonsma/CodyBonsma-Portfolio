@@ -21,9 +21,9 @@ body{
 #picture{
     width: 100%;
     float: left;
+    clear: both;
 }
 
-.text{
-    float: left;
-    clear: both;
+p {
+    float: none;
 }
