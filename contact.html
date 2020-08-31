@@ -40,33 +40,26 @@
         </div>
     </nav>
 
-    <!-- this container will hold the main content on the "about me" page -->
+    <!-- this will be the main form on the contact page -->
     <main class="container">
-        <h1>About Me</h1>
+        <h1>Contact</h1>
         <hr>
-          <div class="row">
-            <div class="col-mm-4 col-sm-3">
-              <img id="picture" src="http://placehold.jp/150x150.png" alt="profile picture" />  
-            </div>
-            <div class="col-md-8 col-sm-9">
-                <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia odit id illum aut! Perferendis nostrum ducimus deleniti
-                cupiditate architecto enim, laborum alias tempore at, obcaecati
-                exercitationem, maxime aspernatur? Nisi, dicta.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati iusto provident perferendis, rem accusamus impedit.
-                Culpa aliquid esse tempora, consectetur possimus alias magnam
-                error vel omnis nemo tempore ea maxime? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Quis modi ullam facere quas,
-                recusandae totam maiores doloremque deleniti labore voluptas
-                repellendus pariatur mollitia, maxime blanditiis laboriosam
-                ratione aliquid, iusto saepe.
-                </p>
-            </div>
+    <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
         </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
     </main>
-
    
     <script src="" async defer></script>
   </body>
