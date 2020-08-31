@@ -5,10 +5,11 @@ body{
 /* edits for the main content container on index.html */
 .container{
     background: white;
-    height: 500px;
+    height: 50%;
     width: 40%;
     padding: 20px;
     margin: 50px;
+    margin-left: 300px;
    
 }
 
@@ -16,4 +17,12 @@ body{
     padding: 3px;
     background: #46a68b;
     color: whitesmoke;
+}
+
+#picture{
+    width: 100%;
+}
+
+#bottom-text{
+
 }
