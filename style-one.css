@@ -7,9 +7,8 @@ body{
     height: 50%;
     width: 40%;
     padding: 20px;
-    margin: 50px;
-    margin-left: 300px;
-   
+    margin: 10%;
+    margin-left: 20%;
 }
 /* ID for the name box in the navbar */
 #name{
