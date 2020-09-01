@@ -1,3 +1,4 @@
+/* this hold the background image for all the pages */
 body{
     background-image: url("./assets/ignasi_pattern_s.png"); 
 }
@@ -10,6 +11,16 @@ body{
     margin: 10%;
     margin-left: 20%;
 }
+/* edits for the main content container on the portfolio page */
+.container-portfolio{
+    background: white;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    margin: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 /* ID for the name box in the navbar */
 #name{
     padding: 3px;
@@ -20,7 +31,13 @@ body{
 #picture{
     width: 100%;
 }
-
-p {
-    float: none;
+/* this is the portfolio heading on the portfolio page */
+#portfolio-heading{
+    color: #58b094;
+}
+/* placeholder images for the portfolio page */
+.portfolio-image{
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
 }
