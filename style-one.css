@@ -29,7 +29,7 @@ body {
 }
 /* ID for the picture in the main content box */
 #picture {
-  width: 40%;
+  width: 50%;
   margin: 10px;
 }
 /* this is the portfolio heading on the portfolio page */
@@ -48,13 +48,14 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: darkgray;
-  opacity: 0.8;
+  background: black;
+  opacity: 0.5;
   border-top: 5px solid #4aaaa5;
   text-align: center;
 }
-
+/* this is the bootstrap submit button on the contact page */
 #contact-submit-button{
   background: #4aaaa5;
-  border
+  border-color: teal;
 }
+
