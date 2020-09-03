@@ -1,5 +1,9 @@
 # CodyBonsma-Portfolio
 
+## Front Page 
+
+![Screenshot](./front-page.png)
+
 ## Description
 This is my portfolio that showcases some of the work I created during my time in GA Tech Full-Stack Coding Boot Camp. Included are three main pages linked below:
 
