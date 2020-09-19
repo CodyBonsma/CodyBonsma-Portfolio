@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
@@ -18,9 +22,7 @@
   <body>
     <!-- This is the top navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <h1 id="name" class="navbar-brand border bg-info text-white">
-        Cody Bonsma
-      </h1>
+      <i class="fas fa-code"></i>
       <button
         class="navbar-toggler"
         type="button"
@@ -45,42 +47,20 @@
 
     <!-- this container will hold the main content on the "about me" page -->
     <main class="container">
-      <h1 id="page-heading">About Me</h1>
-      <hr />
-      <div class="row">
-        <div class="col-md-12 col-sm-4">
-          <img
-            id="picture"
-            src="./cody-dog-image.jpg"
-            alt="picture of Cody with sister"
-            class="float-left"
-          />
-          <p>
-            Hello World! My name is Cody Bonsma. I'm currently enrolled in GA
-            Tech's Full-Stack coding boot camp to learn and grow. My interest in
-            programming started a few years back when I wobbled through my
-            senior year of college. I played around with some codecademy courses
-            and found myself putting in a decent amount of hours over the
-            summer. - Fast forward two years later through some entry level jobs
-            and into a worldwide pandemic, and voila! I saw the opportunity to
-            follow my interest and made the jump.
-            <br />
-            <p>
-            Outside of class/work, I enjoy reading and keeping myself active.
-            Over the last few months I have hiked a decent amount trails ultimately 
-            hope to travel around South East Asia at some point!
-            </p>
-            <br />
-            <p>
-            I am very excited to take on this challenge and grow alongside my
-            classmates in the cohort!
-            </p>
-          </p>
-        </div>
+      <div class="jumbotron">
+        <h1 class="display-4 about-header">Hi, I'm &lt;Cody&gt;</h1>
+        <p class="lead">
+          Currently enrolled in GA Tech's Coding Bootcamp to become a Full-Stack
+          developer. I'm based out of Atlanta, Georgia. I love reading, finding
+          weirdness and diving deep.
+        </p>
+        <hr class="my-4" />
+        <p>HTML5 | CSS3 | JavaScript | React.js | C# | MySQL | MongoDB</p>
+        <i class="fad fa-camera"></i>
       </div>
     </main>
     <!-- This is the sticky footer for the pages  -->
-    <footer id="footer">Copyright 2020</footer>
+    <footer id="footer">Copyright Bonsma 2020</footer>
 
     <script src="" async defer></script>
   </body>

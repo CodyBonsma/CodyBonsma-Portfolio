@@ -1,15 +1,20 @@
 /* this hold the background image for all the pages */
 body {
-  background-image: url("./assets/ignasi_pattern_s.png");
+  background-image: url("./jungle-stream.jpg");
+  /* opacity: 0.7; */
 }
 /* edits for the main content container on index.html */
 .container {
-  background: white;
-  height: 50%;
-  width: 40%;
+  /* background: white; */
+  height: 20%;
+  width: 50%;
   padding: 20px;
   margin: 10%;
   margin-left: 20%;
+}
+/* edits the navbar for each page */
+.navbar{
+  opacity: 0.8;
 }
 /* edits for the main content container on the portfolio page */
 .container-portfolio {
@@ -48,7 +53,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: black;
+  background: white;
   opacity: 0.5;
   border-top: 5px solid #4aaaa5;
   text-align: center;
@@ -59,3 +64,32 @@ body {
   border-color: teal;
 }
 
+.jumbotron{
+  opacity: 0.8;
+  height: auto;
+}
+
+.card-img{
+  opacity: 1;
+  border-radius: 50%;
+  border: solid;
+  border-color: #4aaaa5;;
+}
+
+.about-header,
+#contact-header{
+  color: #4aaaa5;
+}
+.container-portfolio,
+.contact-card{
+  opacity: 0.8;
+}
+
+.workday-scheduler,
+.weather-dashboard{
+  width: 100%;
+}
+
+.solid {
+  border-top: 3px solid #bbb;
+}
