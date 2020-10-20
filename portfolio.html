@@ -1,105 +1,95 @@
 <!DOCTYPE html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Portfolio</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style-one.css" />
-  </head>
 
-  <body>
-    <!-- This is the top navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <i class="fas fa-code"></i>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-link" href="./contact.html">Contact</a>
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          <a class="nav-link active" href="./index.html"
-            >About<span class="sr-only">(current)</span></a
-          >
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Portfolio</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style-one.css" />
+</head>
+
+<body>
+  <!-- This is the top navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <i class="fas fa-code"></i>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="./contact.html">Contact</a>
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link active" href="./index.html">About<span class="sr-only">(current)</span></a>
       </div>
-    </nav>
-    <!-- this is the main portfolio container with the placeholder images -->
-    <main class="container-portfolio">
-      <h1 id="page-heading">Portfolio</h1>
-      <hr />
-      <div class="row">
-        <div class="col-sm-6">
-          <img
-            class="weather-dashboard"
-            src="./Screen Shot 2020-09-18 at 9.16.07 PM.png"
-            alt="city weather dashboard app"
-          />
-        </div>
-      <div class="col-sm-2 float-none">
+    </div>
+  </nav>
+  <!-- this is the main portfolio container with the placeholder images -->
+  <main class="container-portfolio">
+    <h1 id="page-heading">Portfolio</h1>
+    <hr />
+
+    <!-- Prject 3 display -->
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="bookish" src="./assets/Bookish.png" alt="Bookish app" />
+      </div>
+      <div class="col-sm-4 float-none">
         <ul>
-          <li><h4 id="portfolio-title">City Weather Dashboard</h4></li>
+          <li>
+            <h4 id="portfolio-title">Bookish</h4>
+          </li>
+          <li><a href="http://gt-bookish.herokuapp.com/">deployed application</a></li>
+          <li><a href="https://github.com/CodyBonsma/bookish">Github Repository</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="solid">
+    <!-- weather dashboard  -->
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="weather-dashboard" src="./assets/Screen Shot 2020-09-18 at 9.16.07 PM.png"
+          alt="city weather dashboard app" />
+      </div>
+      <div class="col-sm-4 float-none">
+        <ul>
+          <li>
+            <h4 id="portfolio-title">City Weather Dashboard</h4>
+          </li>
           <li><a href="https://codybonsma.github.io/dynamic-weather-dashboard/">deployed application</a></li>
           <li><a href="https://github.com/CodyBonsma/dynamic-weather-dashboard">Github Repository</a></li>
         </ul>
-        </div>
-        <hr class="solid">
+      </div>
+      </div>
+      <hr class="solid">
 
-<!-- // Burger app portfolio page  -->
-        <div class="row">
-          <div class="col-sm-6">
-            <img
-              class="eat-da-burger"
-              src="Screen Shot 2020-10-10 at 11.27.11 AM.png"
-              alt="Burger app"
-            />
-          </div>
-        <div class="col-sm-2 float-none">
+      <!-- // Burger app portfolio page  -->
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="eat-da-burger" src="./assets/Screen Shot 2020-10-10 at 11.27.11 AM.png" alt="Burger app" />
+        </div>
+        <div class="col-sm-4 float-none">
           <ul>
-            <li><h4 id="portfolio-title">Eat Da Burger!</h4></li>
+            <li>
+              <h4 id="portfolio-title">Eat Da Burger!</h4>
+            </li>
             <li><a href="https://eat-a-fat-burger.herokuapp.com/">deployed application</a></li>
             <li><a href="https://github.com/CodyBonsma/Eat-Da-Burger">Github Repository</a></li>
           </ul>
-          </div>
-
-      <!-- next portfolio image -->
-      <div class="row">
-        <div class="col-sm-6">
-          <img
-            class="workday-scheduler"
-            src="./Screen Shot 2020-09-18 at 9.46.23 PM.png"
-            alt="Workday scheduler"
-          />
         </div>
-      <div class="col-sm-2 float-none">
-        <ul>
-          <li><h4 id="portfolio-title">Workday Scheduler</h4></li>
-          <li><a href="https://codybonsma.github.io/workday-scheduler-app/">deployed application</a></li>
-          <li><a href="https://github.com/CodyBonsma/workday-scheduler-app">Github Repository</a></li>
-        </ul>
         </div>
 
-    </main>
-<!-- This is the sticky footer for the pages  -->
-    <footer id="footer"> Copyright Bonsma 2020</footer>
 
-    <script src="" async defer></script>
-  </body>
+  </main>
+  <!-- This is the sticky footer for the pages  -->
+  <footer id="footer"> Copyright Bonsma 2020</footer>
+
+  <script src="" async defer></script>
+</body>
+
 </html>
