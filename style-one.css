@@ -13,7 +13,7 @@ body {
   margin-left: 20%;
 }
 /* edits the navbar for each page */
-.navbar{
+.navbar-color{
   color: beige;
   opacity: 0.8;
 }
@@ -54,7 +54,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: black;
+  background: beige;
   opacity: 0.9;
   border-top: 5px solid #4aaaa5;
   text-align: center;
@@ -95,4 +95,19 @@ body {
 
 .solid {
   border-top: 3px solid beige;
+}
+
+.index-card{
+  background: beige;
+  border-radius: 9%;
+}
+
+
+.jumbotron,
+.contact-card {
+  background: beige;
+}
+
+.contact-list {
+  background: #95c7c4;
 }
